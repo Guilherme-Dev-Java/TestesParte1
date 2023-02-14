@@ -4,21 +4,22 @@ import java.util.Objects;
 
 public class Pessoa {
 	
+	
 	String nome, sexo;
 
 	public Pessoa(String nome, String sexo) {
 		super();
 		this.nome = nome;
 		this.sexo = sexo;
+		
+		
 	}
 
 
 	public Pessoa() {
 		super();
+		
 	}
-
-
-
 
 	public String getNome() {
 		return nome;
